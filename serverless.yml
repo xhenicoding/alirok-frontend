@@ -1,0 +1,26 @@
+stage: ${env.STAGE}
+
+rokApp:
+  component: './node_modules/@sls-next/serverless-component'
+  inputs:
+    name:
+      defaultLambda: '${stage}-rok-app-lambda'
+      apiLambda: '${stage}-rok-app-lambda'
+    bucketName: '${stage}-rok-app'
+    description: '*lambda-type*@Edge for ${stage}-rok-app'
+    cloudfront:
+        distributionId: ${env.DISTRIBUTION_ID}
+    domain:
+      - ${env.SUBDOMAIN}
+      - alirok.com
+    build:
+      env:
+        NEXT_PUBLIC_API_URL_V2: ${env.NEXT_PUBLIC_API_URL_V2}
+        NEXT_PUBLIC_API_URL_V1: ${env.NEXT_PUBLIC_API_URL_V1}
+        NEXT_PUBLIC_STRIPE_PK: ${env.NEXT_PUBLIC_STRIPE_PK}
+        NEXT_PUBLIC_GOOGLE_ANALYTICS: ${env.NEXT_PUBLIC_GOOGLE_ANALYTICS}
+        NEXT_PUBLIC_PROXY_URL: ${env.NEXT_PUBLIC_PROXY_URL}
+        NEXT_PUBLIC_IS_PRODUCTION: ${env.NEXT_PUBLIC_IS_PRODUCTION}
+        NEXT_PUBLIC_V1_URL: ${env.NEXT_PUBLIC_V1_URL}
+        NEXT_PUBLIC_SENDGRID_API_BASE_URL: ${env.NEXT_PUBLIC_SENDGRID_API_BASE_URL}
+        NEXT_PUBLIC_SENDGRID_API_KEY: ${env.NEXT_PUBLIC_SENDGRID_API_KEY}

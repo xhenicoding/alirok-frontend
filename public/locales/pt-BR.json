@@ -1,0 +1,182 @@
+{
+  "homeTemplate": {
+    "parcel": "Remessa",
+    "land": "Rodoviário",
+    "air": "Aéreo",
+    "tracking": "Rastreio"
+  },
+  "loginSection": {
+    "login": "Entrar",
+    "register": "Cadastrar"
+  },
+  "searchBar": {
+    "searchButton": "Buscar",
+    "whereFromInput": "De onde?",
+    "whereToInput": "Para onde?",
+    "whatsInsideInput": "O que esta dentro?",
+    "cargoDetailsInput": "Detalhes da carga"
+  },
+  "trackingBar": {
+    "trackingButton": "Rastrear",
+    "trackingPlaceholder": "Digite o código de rastreio"
+  },
+  "demoSection": {
+    "title": "Compare tarifas e envie para mais de 220 países",
+    "subtitle": "Seja notificado quando adicionarmos uma nova transportadora ou serviço",
+    "carrierBtn": "Me tornar um fornecedor",
+    "notifyBtn": "Me notifique",
+    "alertTitle": "Fantástico",
+    "customerAlertDescription": "Você será notificado sempre que adicionarmos uma nova provedora",
+    "sellerAlertDescription": "Vamos contactá-lo para prover mais instruções de como se tornar um ROK SELLER!",
+    "whyAlirok": "PORQUE ALIROK",
+    "whyAlirokTittle": "MENSAGEM DO CEO",
+    "whyAlirokDescription": "Inspirados por empreendedores incríveis, acreditamos que criar um negócio de sucesso é a maneira mais prática de fazer a diferença que queremos ver no mundo! É por isso que criamos a ALIROK.com, <strong>uma solução de logística global de porta à porta.</strong> Além de entregar seus produtos, esperamos entregar um mundo melhor do que o encontramos.",
+    "domestic": "NACIONAL",
+    "domesticTittle": "COMO ENVIAR UM PACOTE?",
+    "domesticDescription": "Compare tarifas e prazo de entrega de diversas transportadoras em tempo real! Selecione sua opção preferida e imprima sua etiqueta!",
+    "international": "INTERNACIONAL",
+    "internationalTittle": "ENVIOS SEM FRONTEIRAS!",
+    "internationalDescription": "Envie para mais de 220 países usando as transportadoras mais confiáveis ​​do mundo. Basta imprimir sua etiqueta, emitimos automaticamente a fatura comercial e os formulários para fins alfandegários.",
+    "tracking": "RASTREIO",
+    "trackingTittle": "ACOMPANHE CADA PASSO",
+    "trackingDescription": "Rastreamento em tempo real na pontas dos dedos.",
+    "watchBtn": "ASSISTA O VIDEO"
+  },
+  "howTo": {
+    "title": "Cote. Escolha. Embarque. É simples!",
+    "quoteTitle": "1. Cote",
+    "quoteSubtitle": "Insira a origem, o destino e os detalhes do pacote",
+    "quoteDescription": "Analise as taxas e serviços e selecione sua transportadora preferida",
+    "bookTitle": "2. Escolha",
+    "bookSubtitle": "Adicione informações do remetente e destinatário",
+    "bookDescription": "Pesquise pelo nome de seus amigos ou compartilhe o link para que eles possam inserir todos os detalhes.",
+    "shipTitle": "3. Embarque",
+    "shipSubtitle": "Conclua o pagamento e imprima sua etiqueta para envio",
+    "shipDescription": "Cole a etiqueta na caixa, entregue na unidade mais próxima ou selecione a coleta em seu endereço."
+  },
+  "favoriteCarriers": {
+    "title": "Suas transportadoras favoritas em um único lugar"
+  },
+  "alirokIsForEveryone": {
+    "title": "Alirok foi feita para você",
+    "personalShipmentsTitle": "Para remessas pessoais",
+    "personalShipmentsDescription1": "Compare o frete de diversas transportadoras",
+    "personalShipmentsDescription2": "ao mesmo tempo e embarque para mais de 220 países, economizando até 65%.",
+    "personalShipmentsDescription3": "Conecte-se com seus amigos",
+    "personalShipmentsDescription4": "e mantenha todas as suas remessas em um único lugar",
+    "personalShipmentsButton": "Cadastre-se",
+    "businessesTitle": "Para empresas",
+    "businessesDescription1": "SE TORNE GLOBAL",
+    "businessesDescription2": "em minutos!",
+    "businessesDescription3": "Com uma única integração, você tem acesso à suas transportadoras favoritas podendo entregar seus produtos",
+    "businessesDescription4": "em qualquer lugar do mundo",
+    "businessesDescription5": "com fretes competitivos, sem ter que negociar um contrato com cada transportadora",
+    "businessesButton": "Cadastre-se",
+    "carriersTitle": "Para transportadoras & agentes",
+    "carriersDescription1": "TORNE-SE UM ROK SELLER E CRESÇA SEU NEGÓCIO!",
+    "carriersDescription2": "A Alirok lhe fornecerá todas ferramentas para automatizar suas tarifas, geração de etiqueta, rastreamento, pagamentos e suporte ao cliente!",
+    "carriersDescription3": "100 % DE GRAÇA PARA SEMPRE!",
+    "carriersButton": "Cadastre-se"
+  },
+  "review": {
+    "title": "O que as pessoas amam sobre a Alirok.com",
+    "personName1": "Julia",
+    "personFeedback1": "Adoro poder comparar preços e prazo de entrega de todas as transportadoras em uma única cotação!",
+    "personName2": "Mike",
+    "personFeedback2": "Definitivamente o melhor preço! Em apenas uma remessa já economizei 400 dólares usando a Alirok!",
+    "personName3": "Emily",
+    "personFeedback3": "Tão fácil! Literalmente é só digitar o nome do meu cliente e consigo enviar meu pacote em 30 segundos!"
+  },
+  "footer": {
+    "policies": "Política Alirok",
+    "terms": "Termos de uso"
+  },
+  "whereFrom": {
+    "title": "De onde?",
+    "whereFromToggle": {
+      "byAddress": "Endereço",
+      "byMembers": "Membros",
+      "byName": "Usuários",
+      "byCompany": "Empresas",
+      "byAirport": "Aeroporto"
+    },
+    "searchInput": {
+      "byAddress": "De onde?",
+      "byAddressPlaceholder": "Digite o endereço completo",
+      "byMembers": "Quem está enviando?",
+      "byMembersPlaceholder": "Digite o nome do membro",
+      "byName": "Quem está enviando?",
+      "byNamePlaceholder": "Digite o nome do usuário",
+      "byCompany": "Quem está enviando?",
+      "byCompanyPlaceholder": "Digite o nome da empresa",
+      "byAirport": "Qual aeroporto?",
+      "byAirportPlaceholder": "Digite o nome completo do aeroporto"
+    },
+    "addressType": {
+      "warehouse": "Armazem",
+      "residential": "Residencial",
+      "commercial": "Comercial"
+    },
+    "form": {
+      "zipCode": "CEP",
+      "zipCodeRequiredError": "CEP é obrigatório",
+      "country": "País",
+      "countryRequiredError": "País é obrigatório",
+      "state": "Estado",
+      "stateRequiredError": "Estado é obrigatório",
+      "city": "Cidade",
+      "cityRequiredError": "Cidade é obrigatório",
+      "street": "Rua",
+      "streetRequiredError": "Rua é obrigatório",
+      "streetNumber": "Número",
+      "streetNumberRequiredError": "Número é obrigatório",
+      "additionalAddress": "Rua. Apt Num.",
+      "complementAddress": "Instruções complementares"
+    },
+    "confirmButton": "Confirmar"
+  },
+  "whereTo": {
+    "title": "Para onde?",
+    "whereToToggle": {
+      "byAddress": "Endereço",
+      "byMembers": "Membros",
+      "byName": "Usuários",
+      "byCompany": "Empresas",
+      "byAirport": "Aeroporto"
+    },
+    "searchInput": {
+      "byAddress": "Para onde onde?",
+      "byAddressPlaceholder": "Digite o endereço completo",
+      "byMembers": "Quem está recebendo?",
+      "byMembersPlaceholder": "Digite o nome do membro",
+      "byName": "Quem está recebendo?",
+      "byNamePlaceholder": "Digite o nome do usuário",
+      "byCompany": "Quem está recebendo?",
+      "byCompanyPlaceholder": "Digite o nome da empresa",
+      "byAirport": "Qual aeroporto?",
+      "byAirportPlaceholder": "Digite o nome completo do aeroporto"
+    },
+    "addressType": {
+      "warehouse": "Armazem",
+      "residential": "Residencial",
+      "commercial": "Comercial"
+    },
+    "form": {
+      "zipCode": "CEP",
+      "zipCodeRequiredError": "CEP é obrigatório",
+      "country": "País",
+      "countryRequiredError": "País é obrigatório",
+      "state": "Estado",
+      "stateRequiredError": "Estado é obrigatório",
+      "city": "Cidade",
+      "cityRequiredError": "Cidade é obrigatório",
+      "street": "Rua",
+      "streetRequiredError": "Rua é obrigatório",
+      "streetNumber": "Número",
+      "streetNumberRequiredError": "Número é obrigatório",
+      "additionalAddress": "Rua. Apt Num.",
+      "complementAddress": "Instruções complementares"
+    },
+    "confirmButton": "Confirmar"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "homeTemplate": {
+    "parcel": "Parcel",
+    "land": "Land",
+    "air": "Air",
+    "tracking": "Tracking"
+  },
+  "loginSection": {
+    "login": "Log In",
+    "register": "Join Us"
+  },
+  "searchBar": {
+    "searchButton": "Search",
+    "whereFromInput": "Where from?",
+    "whereToInput": "Where to?",
+    "whatsInsideInput": "What's inside?",
+    "cargoDetailsInput": "Cargo details?"
+  },
+  "trackingBar": {
+    "trackingButton": "Track",
+    "trackingPlaceholder": "Enter tracking number"
+  },
+  "demoSection": {
+    "title": "Compare rates and ship to over 220 countries",
+    "subtitle": "Get notified when we add a new carrier or service",
+    "carrierBtn": "Become a seller",
+    "notifyBtn": "Notify me",
+    "alertTitle": "Fantastic",
+    "customerAlertDescription": "You will be notified every time we add a new carrier",
+    "sellerAlertDescription": "We will contact you with more instruction on how to become a ROK SELLER!",
+    "whyAlirok": "WHY ALIROK",
+    "whyAlirokTittle": "MESSAGE FROM THE CEO",
+    "whyAlirokDescription": "Inspired by incredible entrepreneurs out there, we believe that growing a successful business is the way to make a difference in the world! That’s why ALIROK.com was born, a <strong>door-to-door global logistics solution.</strong> In addition to delivering products we hope to deliver a better world than we found it.",
+    "domestic": "DOMESTIC",
+    "domesticTittle": "HOW TO SEND A PACKAGE",
+    "domesticDescription": "Compare real time rates & transit time from multiple carriers in a single place! Select a carrier & print your label!",
+    "international": "INTERNATIONAL",
+    "internationalTittle": "SHIP WITHOUT BOARDERS!",
+    "internationalDescription": "Ship to & from over 220 countries using the most trusted carriers in the world. Simply print your label, we automatically issue the commercial invoice & forms for customs purposes.",
+    "tracking": "TRACKING",
+    "trackingTittle": "TRACK EVERY STEP OF THE WAY",
+    "trackingDescription": "Real-time tracking in your finger tips.",
+    "watchBtn": "WATCH VIDEO"
+  },
+  "howTo": {
+    "title": "Quote. Book. Ship. That Simple!",
+    "quoteTitle": "1. Quote",
+    "quoteSubtitle": "Enter origin, destination and package details",
+    "quoteDescription": "Review the rates & services and select your preferred carrier",
+    "bookTitle": "2. Book",
+    "bookSubtitle": "Add sender & recipient information",
+    "bookDescription": "Search your friends’s name or easily share link so they can enter all details.",
+    "shipTitle": "3. Ship",
+    "shipSubtitle": "Complete payment and print your shipping label",
+    "shipDescription": "Attach the label to the package, drop-off at the nearest carrier location or select pick-up at your address."
+  },
+  "favoriteCarriers": {
+    "title": "Your favorite carriers in a single place"
+  },
+  "alirokIsForEveryone": {
+    "title": "Alirok was made for you",
+    "personalShipmentsTitle": "For personal shipments",
+    "personalShipmentsDescription1": "Compare real time rates",
+    "personalShipmentsDescription2": "from multiple carriers to & from over 220 countries, saving up to 65%.",
+    "personalShipmentsDescription3": "Connect with your friends",
+    "personalShipmentsDescription4": "keep all your shipments in a single place",
+    "personalShipmentsButton": "Join Us",
+    "businessesTitle": "For businesses",
+    "businessesDescription1": "GO GLOBAL",
+    "businessesDescription2": "in minutes!",
+    "businessesDescription3": "With a single integration you have access to all your favorite carriers to ship your products",
+    "businessesDescription4": "anywhere in the world",
+    "businessesDescription5": "with instant competitive rates without having to negotiate a contract with each carrier",
+    "businessesButton": "Join Us",
+    "carriersTitle": "For carriers & agents",
+    "carriersDescription1": "BECOME A ROK SELLER AND GROW YOUR BUSINESS!",
+    "carriersDescription2": "Alirok will provide you the tools to automate your rates, booking, tracking, payments and customer support!",
+    "carriersDescription3": "100% FREE TO USE FOREVER!",
+    "carriersButton": "Join Us"
+  },
+  "review": {
+    "title": "What people love about Alirok",
+    "personName1": "Julia",
+    "personFeedback1": "I love that I can compare price and transit time of all the carriers in a single quote",
+    "personName2": "Mike",
+    "personFeedback2": "Definitely the best price! Alirok saved me $400 dollars in just one shipment!",
+    "personName3": "Emily",
+    "personFeedback3": "So easy! I can literally just type my customer's name and send my package in 30 seconds."
+  },
+  "footer": {
+    "policies": "Alirok’s policies",
+    "terms": "Terms"
+  },
+  "whereFrom": {
+    "title": "Where from?",
+    "whereFromToggle": {
+      "byAddress": "Address",
+      "byMembers": "Members",
+      "byName": "Users",
+      "byCompany": "Companies",
+      "byAirport": "Airport"
+    },
+    "searchInput": {
+      "byAddress": "Where from?",
+      "byAddressPlaceholder": "Type complete address",
+      "byMembers": "Who’s sending?",
+      "byMembersPlaceholder": "Type complete members name",
+      "byName": "Who’s sending?",
+      "byNamePlaceholder": "Type complete user name",
+      "byCompany": "Who’s sending?",
+      "byCompanyPlaceholder": "Type complete company name",
+      "byAirport": "Which Airport?",
+      "byAirportPlaceholder": "Type complete airport name"
+    },
+    "addressType": {
+      "warehouse": "Warehouse",
+      "residential": "Residential",
+      "commercial": "Commercial"
+    },
+    "form": {
+      "zipCode": "Postal Code",
+      "zipCodeRequiredError": "Postal Code is required",
+      "country": "Country",
+      "countryRequiredError": "Country is required",
+      "state": "State",
+      "stateRequiredError": "State is required",
+      "city": "City",
+      "cityRequiredError": "City is required",
+      "street": "Street Address",
+      "streetRequiredError": "Street Address is required",
+      "streetNumber": "Number",
+      "streetNumberRequiredError": "Number is required",
+      "additionalAddress": "Ste. Apt No.",
+      "complementAddress": "Complement. Instructions"
+    },
+    "confirmButton": "Confirm"
+  },
+  "whereTo": {
+    "title": "Where to?",
+    "whereToToggle": {
+      "byAddress": "Address",
+      "byMembers": "Members",
+      "byName": "Users",
+      "byCompany": "Companies",
+      "byAirport": "Airport"
+    },
+    "searchInput": {
+      "byAddress": "Where to?",
+      "byAddressPlaceholder": "Type complete address",
+      "byMembers": "Who’s receiving?",
+      "byMembersPlaceholder": "Type complete members name",
+      "byName": "Who’s receiving?",
+      "byNamePlaceholder": "Type complete user name",
+      "byCompany": "Who’s receiving?",
+      "byCompanyPlaceholder": "Type complete company name",
+      "byAirport": "Which Airport?",
+      "byAirportPlaceholder": "Type complete airport name"
+    },
+    "addressType": {
+      "warehouse": "Warehouse",
+      "residential": "Residential",
+      "commercial": "Commercial"
+    },
+    "form": {
+      "zipCode": "Postal Code",
+      "zipCodeRequiredError": "Postal Code is required",
+      "country": "Country",
+      "countryRequiredError": "Country is required",
+      "state": "State",
+      "stateRequiredError": "State is required",
+      "city": "City",
+      "cityRequiredError": "City is required",
+      "street": "Street Address",
+      "streetRequiredError": "Street Address is required",
+      "streetNumber": "Number",
+      "streetNumberRequiredError": "Number is required",
+      "additionalAddress": "Ste. Apt No.",
+      "complementAddress": "Complement. Instructions"
+    },
+    "confirmButton": "Confirm"
+  }
+}

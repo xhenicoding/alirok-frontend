@@ -1,0 +1,70 @@
+name: Deploy the Rok App V2
+
+on:
+  push:
+    branches:
+      - develop
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Make development envfile to Develop
+        if: ${{ github.ref == 'refs/heads/develop' }}
+        uses: SpicyPizza/create-envfile@v1
+        with:
+          envkey_NEXT_PUBLIC_API_URL_V2: https://api-dev-v2.alirok.com
+          envkey_NEXT_PUBLIC_API_URL_V1: https://api-dev.alirok.io
+          envkey_NEXT_PUBLIC_PROXY_URL: https://proxy.alirok.io
+          envkey_NEXT_PUBLIC_STRIPE_PK: ${{ secrets.NEXT_PUBLIC_STRIPE_PK_DEV }}
+          envkey_NEXT_PUBLIC_GOOGLE_ANALYTICS: ${{ secrets.NEXT_PUBLIC_GOOGLE_ANALYTICS_DEV }}
+          envkey_NEXT_PUBLIC_IS_PRODUCTION: development
+          envkey_NEXT_PUBLIC_V1_URL: https://v1-dev.alirok.com
+          envkey_NEXT_PUBLIC_SENDGRID_API_BASE_URL: https://api.sendgrid.com/v3
+          envkey_NEXT_PUBLIC_SENDGRID_API_KEY: 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
+          envkey_SUBDOMAIN: dev
+          envkey_STAGE: dev
+          envkey_DISTRIBUTION_ID: E905EXEO4UKAE
+
+      - name: Make development envfile to Production
+        if: ${{ github.ref == 'refs/heads/main' }}
+        uses: SpicyPizza/create-envfile@v1
+        with:
+          envkey_NEXT_PUBLIC_API_URL_V2: https://api-prod-v2.alirok.com
+          envkey_NEXT_PUBLIC_API_URL_V1: https://api.alirok.io
+          envkey_NEXT_PUBLIC_PROXY_URL: https://proxy.alirok.io
+          envkey_NEXT_PUBLIC_STRIPE_PK: ${{ secrets.NEXT_PUBLIC_STRIPE_PK_PROD }}
+          envkey_NEXT_PUBLIC_GOOGLE_ANALYTICS: ${{ secrets.NEXT_PUBLIC_GOOGLE_ANALYTICS_PROD }}
+          envkey_NEXT_PUBLIC_IS_PRODUCTION: production
+          envkey_NEXT_PUBLIC_V1_URL: https://v1.alirok.com
+          envkey_NEXT_PUBLIC_SENDGRID_API_BASE_URL: https://api.sendgrid.com/v3
+          envkey_NEXT_PUBLIC_SENDGRID_API_KEY: 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
+          envkey_SUBDOMAIN: www
+          envkey_STAGE: prod
+          envkey_DISTRIBUTION_ID: E21YEYJD8EA032
+
+      - name: Install NPM dependencies
+        run: npm ci
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_KEY }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET }}
+          aws-region: us-east-1
+
+      - name: Deploy Lambda function
+        run: npm run serverless

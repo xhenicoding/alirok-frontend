@@ -1,0 +1,21 @@
+{
+  "name": "Alirok",
+  "short_name": "Alirok",
+  "icons": [
+    {
+      "src": "/img/favicon-gradient.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/favicon-gradient.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#06092B",
+  "description": "Quote, Book, Ship, That's simple! Quote real-time rates, 24 hours a day, from multiple carriers and ship to over 220 countries saving up to 65%",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#06092B"
+}
